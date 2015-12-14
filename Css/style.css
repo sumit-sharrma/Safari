@@ -1,0 +1,372 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+
+.row
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+.main 
+{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    width: auto;
+}
+
+
+.enter-btn 
+{
+    background-image: none;
+    border-radius: 3px;
+    box-shadow: none;
+    text-shadow:none;
+    font-size: 18px;
+    font-family: Corbel;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    transition:all .4s ease;
+    padding: 6px 65px;
+    margin-top: 560px;
+}
+.enter-btn:hover, .enter-btn:focus
+{
+    background-color: #F39C12;
+    border: 2px solid #F39C12;
+    transition:all 0s ease;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+
+.p2
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    width: auto;
+
+}
+
+
+
+
+
+.brand
+{
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 24px;
+}
+.brand a
+{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+    font-family: Roboto Condensed;
+    cursor: pointer;
+    transition:all .2s ease-in;
+    padding: 15px 10px;
+}
+.brand a:hover
+{
+    color: #F39C12; 
+    transition:all .2s ease-out;
+}
+.nav-links 
+{
+	font-size: 18px;
+	font-family: Roboto Condensed;
+	padding: 20px 15px;
+    color: #000;
+    text-shadow:none;
+}
+
+.navbar 
+{
+    background-color: #fff;
+    opacity: .9;
+    background-image: none;
+}
+
+
+@media screen and (max-width: 991px)
+{
+    .brand
+    {
+        
+        margin-left: 35%;
+    }
+
+    .nav-links
+    {
+        margin-right: 6%;
+    }
+}
+@media screen and (max-width: 767px)
+{
+    .nav-links a
+    {
+        text-align: center;
+    }
+    .nav-links
+    {
+        margin-right: 0;
+    }
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 18px 12px;
+    margin-top: 15px;
+    margin-right: 30px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    transition: all .8s ease-in;
+
+}	
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #ccc;
+}
+
+
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #F39C12;
+    transition:all .4s ease;
+    text-shadow:none;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover
+{
+    background-color: #F39C12;
+    border-color: #337AB7;
+    transition:all .4s ease;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0px;
+    margin: 2px 0px 0px;
+    font-size: 14px;
+    text-align: center;
+    list-style: outside none none;
+    background-color: #FFF;
+    background-clip: padding-box;
+    border: 2px solid #F39C12;
+    border-radius: 4px;
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.176);
+    transition:all .4s ease;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover
+{
+    background-color: #36D7B7;
+    background-image: none; 
+}
+
+.dropdown-menu > li > a 
+{
+	font-size: 15px;
+	padding: 6px 20px;
+	
+}
+
+.navbar-nav > li > a
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    color: #000;
+    transition:all .4s ease;
+    text-shadow:none;
+}
+.navbar-nav > li > a:hover
+{
+    color: #000;
+    transition:all .4s ease;
+}
+
+
+
+.why
+{
+    position: relative;
+    margin-top: 700px;
+}
+.why-well
+{
+    background-image: none;
+    background-color: #fff;
+    opacity: .9;
+}
+.why-head h3
+{
+    margin-top: 5px;
+    margin-bottom: 12px;
+    font-family: Roboto Condensed;
+}
+.why-para p 
+{
+    font-size: 16px;
+    font-family: Roboto Condensed;
+
+}
+.why-btn
+{
+    text-align: center;
+    background-image: none;
+    text-shadow:none;
+    font-family: Roboto Condensed;
+    font-size: 17px;
+    transition:all .2s ease;
+    border: 2px solid #ccc;
+    box-shadow: none;
+}
+.why-btn:hover, .why-btn:focus
+{
+    background-color: #36D7B7;
+    transition:all .2s ease;
+    color: #fff;
+    border: 2px solid #36D7B7;
+}
+
+
+.theme
+{
+    position: relative;
+    margin-top: 200px;
+}
+
+.theme-head h3
+{
+    margin-top: 5px;
+    margin-bottom: 12px;
+    font-family: Roboto Condensed;
+}
+.theme-col
+{
+    padding-left: 0;
+    padding-right: 8px;
+    opacity: 1;
+    display: inline-block;
+    
+    vertical-align: top;
+    overflow: hidden;
+
+}
+.theme-col img 
+{
+    border: 2px solid #ccc;
+
+}
+
+.overlay_text {
+  background: rgba(41, 128, 185, 0.7);
+  bottom: 0;
+  color: white;
+  font-size: 1em;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 3.75em 2em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 8px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.overlay_text:hover { opacity: 1; }
+
+.overlay_text:after,
+.overlay_text:before {
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  
+  bottom: 0;
+  content: '';
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
+  -webkit-transition: 0.6s 0.2s;
+  transition: 0.6s 0.2s;
+ 
+}
+
+.overlay_text:before {
+  border-bottom: none;
+  border-top: none;
+  left: 2em;
+  right: 2em;
+}
+
+.overlay_text:after {
+  border-left: none;
+  border-right: none;
+  bottom: 2em;
+  top: 2em;
+}
+
+.overlay_text:hover:after,
+.overlay_text:hover:before
+{
+    
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+.overlay_text h2
+{
+    font-family: Roboto Condensed;
+    font-size: 18px;    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
